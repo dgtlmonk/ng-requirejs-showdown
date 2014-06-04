@@ -1,0 +1,27 @@
+{
+  "name": "d1",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dgtlmonk/",
+  "authors": [
+    "Joel Pablo <joel.pablo@digitalmonkstudio.com>"
+  ],
+  "description": "requirejs angular module loader",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "~0.2.10",
+    "angular": "~1.2.16",
+    "requirejs": "~2.1.14",
+    "requirejs-domready": "~2.0.1",
+    "angular-route": "~1.2.16",
+    "showdown": "~0.3.1"
+  }
+}
