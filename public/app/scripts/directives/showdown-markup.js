@@ -4,7 +4,10 @@ define(['./module-base'], function( module ) {
     module.directive('showdownMarkup', function (){
        return {
             restrict: 'EA',
-            template: 'this is a template string'
+            template: 'this is a template string',
+            scope:{ // bindings
+                markupToHTML:'='
+            }
        };
    })
 });
