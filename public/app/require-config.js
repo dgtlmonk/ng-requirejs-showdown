@@ -1,9 +1,10 @@
 require.config({
     // alias library paths
-    paths:{
+    paths :{
         'angular':'../vendor/angular/angular',
         'domReady':'../vendor/requirejs-domready/domReady',
-        'angular-ui-router':'../vendor/angular-ui-router/release/angular-ui-router'
+        'angular-ui-router':'../vendor/angular-ui-router/release/angular-ui-router',
+        'showdown':'../vendor/showdown/src/showdown'
     },
 
     // angular doesn't support AMD out of the box, put it in a shim

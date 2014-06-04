@@ -9,10 +9,9 @@
     </head>
     <body>
      
-        <div id="name" class="name" ui-view ng-controller='ShowDownMarkupCtrl'>
-            It worked! :-)
-            {{ data }}
-            <showdown-markup markupToHTML=''></showdown-markup>
+        <div id="name" class="name" ui-view ng-controller='ShowdownMarkupCtrl'>
+           
+            <showdown-markup markup-data="data"></showdown-markup>
         </div>
 
         <script src='./vendor/requirejs/require.js' data-main='./app/require-config.js'></script>
