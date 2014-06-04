@@ -1,5 +1,6 @@
 ================================================
-RequireJS + Angular module loader best practice
+#### Custom Angular directive utilizing Showdownjs (https://github.com/coreyti/showdown). 
+#### My site/blog utility.
 ================================================
 
 Based on
