@@ -4,7 +4,8 @@ require.config({
         'angular':'../vendor/angular/angular',
         'domReady':'../vendor/requirejs-domready/domReady',
         'angular-ui-router':'../vendor/angular-ui-router/release/angular-ui-router',
-        'showdown':'../vendor/showdown/src/showdown'
+        'showdown':'../vendor/showdown/src/showdown',
+        'sanitize':'../vendor/angular-sanitize/angular-sanitize.min'
     },
 
     // angular doesn't support AMD out of the box, put it in a shim
