@@ -9,3 +9,7 @@ More on (https://github.com/coreyti/showdown).
 
 
 This is a utility/helper im working on for my site blog.
+
+Updates:
+
+June 9, 2014 - Fixed Karma-PhantomJS-RequireJS configuration but via [Gulp](http://gulpjs.com)
