@@ -12,8 +12,6 @@ This is a utility/helper im working on for my site blog.
 
 Change logs:
 
-June 6, 2014 - App structured using RequireJS AMD
-
-June 7, 2014 - ng-showdown directive added. Started configuring [Karma](karma-runner.github.io) test runner.
-
-June 9, 2014 - Fixed Karma-PhantomJS-RequireJS configuration but via [Gulp](http://gulpjs.com)
+* June 6, 2014 - App structured using RequireJS AMD
+* June 7, 2014 - ng-showdown directive added. Started configuring [Karma](karma-runner.github.io) test runner.
+* June 9, 2014 - Fixed Karma-PhantomJS-RequireJS configuration but via [Gulp](http://gulpjs.com)
