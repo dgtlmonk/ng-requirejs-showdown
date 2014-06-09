@@ -9,8 +9,8 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-    'public/vendor/requirejs/requirejs.js',
-      'test/test-main.js'
+    //  'test/test-main.js',
+     // 'test/*Spec.js'
     ],
 
  // frameworks to use

@@ -17,7 +17,7 @@ require.config({
   baseUrl: '/base',
 
   // dynamically load all test files
-  deps: allTestFiles,
+ // deps: allTestFiles, // this is disabled because we're watching these files already via Gulp
 
   // we have to kickoff jasmine, as it is asynchronous
   callback: window.__karma__.start

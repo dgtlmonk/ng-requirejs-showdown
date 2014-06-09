@@ -9,7 +9,11 @@ gulp.task('karma',function(){
         action : 'watch',
         frameworks:['jasmine','requirejs'],
         plugins:['karma-phantomjs-launcher','karma-jasmine', 'karma-requirejs'],
-        browser: ['PhantomJS']
+        browser: ['PhantomJS'],
+        autoWatch: true,
+        files:[
+            // './public/vendor/requirejs/require.js'
+        ]
     }));
 
 })
