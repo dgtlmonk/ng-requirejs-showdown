@@ -1,6 +1,5 @@
 var gulp = require('gulp'),
     karma = require('gulp-karma'),
-    phantomjs = require('karma-phantomjs-launcher'),
     connect = require('gulp-connect');
 
 gulp.task('karma',function(){
