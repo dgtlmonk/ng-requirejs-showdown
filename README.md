@@ -15,3 +15,4 @@ Change logs:
 * June 6, 2014 - App structured using [RequireJS](http://requirejs.org/) AMD
 * June 7, 2014 - ng-showdown directive added. Started configuring [Karma](karma-runner.github.io) test runner.
 * June 9, 2014 - Fixed Karma-PhantomJS-RequireJS configuration but via [Gulp](http://gulpjs.com)
+* June 11, 2014 - Loaded dynamic .md file and rendered as Markdown. Yeeaaahhh buddeehhh!
