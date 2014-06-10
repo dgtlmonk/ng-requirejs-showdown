@@ -6,12 +6,16 @@
     <title>My Awesome App</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/foundation/4.1.2/css/foundation.min.css" />
+   </head>
     <body>
      
-        <div id="name" class="name" ui-view ng-controller='ShowdownMarkupCtrl'>
+        <div id="name" ui-view ng-controller='ShowdownMarkupCtrl'>
            
-            <showdown-markup markup-data="data"></showdown-markup>
+            <showdown-markup post="data.post">
+               
+           </showdown-markup>
         </div>
 
         <script src='./vendor/requirejs/require.js' data-main='./app/require-config.js'></script>
