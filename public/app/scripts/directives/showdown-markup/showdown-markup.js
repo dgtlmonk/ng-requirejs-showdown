@@ -19,12 +19,13 @@ define(['../module-base','showdown'], function( module ) {
                scope.$watch(attrs.markupData, function(val){ // watch local scope markupData for changes and apply
                   //  console.log('$watch triggered');
                   console.log(scope.post); // entry
-                   // el.text('### Hello Markdown\n [http://digitalmonkstudio.com](booyah)')
                   var blog = '/post/' + scope.post + '.md';
                    $http.get(blog)
-                        .success(function(response){
-                            var htmlText = converter.makeHtml(response);
-                                el.html(htmlText);
+                        .success(function(res){
+                            var htmlText = converter.makeHtml(res);
+                            var pattern = /<a href=/g;
+                            var sanitizedHTML = htmlText.replace(pattern,"<a target='_blank' href=");
+                            el.html(sanitizedHTML);
                                 // console.log(response);
                           })
 
