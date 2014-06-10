@@ -13,7 +13,7 @@ var pattern = /&lt;a href=/g;
 var el = document.querySelector(‘.markdownText’);
 var converter = new Showdown.converter();           
 var rawMarkdown = converter.makeHtml(el.innerHTML);            
-var htmlText = rawMarkdown.replace(pattern,”a target=’_blank’ href=”);
+var htmlText = rawMarkdown.replace(pattern,”&lt;a target=’_blank’ href=”);
 
 el.innerHTML = htmlText;
 </code>
