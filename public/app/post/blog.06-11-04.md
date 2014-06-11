@@ -24,5 +24,5 @@ Link to [JSFiddle][1]
 [Markdown Markup]: http://daringfireball.net/projects/markdown/
 [AngularJS]: http://angularjs.org
 [Stackoverflow]: http://stackoverflow.com/questions/4425198/markdown-target-blank/ 
-[1]:http://jsfiddle.net/dgtlmonk/2c2GQ/8/ 
+[1]:http://jsfiddle.net/2c2GQ/9/ 
 
